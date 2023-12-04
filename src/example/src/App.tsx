@@ -1,8 +1,7 @@
 import {useState} from 'react';
 import dragHandleIcon from './assets/drag-handle.svg';
 import expandArrowIcon from './assets/expand-arrow.svg';
-import {SimpleDNDTable, SimpleDNDTableData} from '../index';
-import React from 'react';
+import {SimpleDNDTable, SimpleDNDTableData} from '@osx11/react-simple-dnd-table';
 
 function App() {
   const [data, setData] = useState<SimpleDNDTableData[]>([
