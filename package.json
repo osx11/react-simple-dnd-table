@@ -1,9 +1,9 @@
 {
-  "name": "react-simple-dnd-table",
-  "version": "1.0.0",
+  "name": "@osx11/react-simple-dnd-table",
+  "version": "1.0.1",
   "description": "A simple Drag-To-Reorder table for React",
-  "scripts": {
-    "rollup": "rollup -c"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/osx11"
   },
   "author": "osx11",
   "license": "MIT",
@@ -14,6 +14,9 @@
   ],
   "type": "module",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
   "dependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
