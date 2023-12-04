@@ -1,0 +1,12 @@
+:root {
+  --dnd-table-odd-row-background: #F5F5F5;
+  --dnd-table-even-row-background: none;
+  --dnd-table-row-highlight-border: #5388F1;
+  --dnd-table-borders: #cfd9e1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
