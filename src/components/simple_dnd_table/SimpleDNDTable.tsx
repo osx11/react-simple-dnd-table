@@ -2,12 +2,7 @@ import styled, {css} from 'styled-components';
 import DND from '../dnd_table';
 import DNDHandle from '../dnd_table_handle';
 import * as React from 'react';
-
-export type SimpleDNDTableData = {
-  key: number | string;
-  values: string[];
-  inner?: SimpleDNDTableData[];
-}
+import {SimpleDNDTableData} from '../../index';
 
 type SimpleDNDTableProps = {
   data: SimpleDNDTableData[];
