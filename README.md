@@ -1,5 +1,7 @@
 # React Simple DND (Drag to Reorder) Table
 
+![demo gif](./readme_data/demo.gif)
+
 ## Installation
 
 ### With npm:

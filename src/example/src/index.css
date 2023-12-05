@@ -5,8 +5,15 @@
   --dnd-table-borders: #cfd9e1;
 }
 
+@font-face {
+  font-family: 'Golos';
+  src: url("/fonts/Golos.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: Golos, sans-serif;
 }
