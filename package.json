@@ -1,11 +1,12 @@
 {
   "name": "@osx11/react-simple-dnd-table",
-  "version": "1.0.9",
+  "version": "1.0.13",
   "description": "A simple Drag-To-Reorder table for React",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/osx11"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osx11/react-simple-dnd-table.git"
   },
-  "author": "osx11",
+  "author": "osx11 <osx11@ya.ru>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
